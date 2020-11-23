@@ -1,7 +1,70 @@
-* {
-
+h1 {
+  color: ivory;
 }
 
-h1 {
+body {
+  background-color: 697660;
+}
 
+button {
+  background-color: gold;
+  color: white;
+  padding: 50px;
+}
+
+.yes-hover:hover {
+  background-color: lightblue;
+}
+
+.image {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+h2 {
+  position: absolute;
+  top: 150px;
+  top: 25%;
+  left: 25%;
+  transform: translate(-25%, -25%);
+}
+
+@@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+p {
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  width: 100%;
+  top: 50%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  font-size: 80pt;
+  top: 15%;
+  left: 50%;
+  color: gold;
+  transform: translate(-25%, -25%);
+}
+
+.content {
+  position: relative;
+  text-align: center;
+}
+
+@media screen and (max-width: 100px) {
+  body {
+    background-color: 697660;
+  }
+}
+
+@media screen and (max-width: 100px) {
+  body {
+    background color: white;
+  }
 }
